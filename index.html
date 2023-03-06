@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMI calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contaner">
+        <h1>EMI CALCULATE</h1>
+
+        <div class="calculator">
+
+            <div class="table1">
+                <form class="formtag" action="" method="get">
+                    <label for="">Principal Amount</label><br>
+                    <input class="inputs" id="amount" type="number" placeholder="Principal Amount">
+                    <br>
+                    <label for="">Interest%</label><br>
+                    <input class="inputs" id="interest" type="number" placeholder="Interest%">
+                    <br>
+                    <label for="" class="lt">Loan Tenure</label><br>
+                    <input class="inputsM" id="month" type="number" placeholder="Month/Year"><button class="btnm"
+                        id="mons">Mo</button><button class="btnm" id="yr">Yr</button>
+                    <br>
+                    <div>
+                        <button class="btn">CALCULATE</button>
+                        <!-- <br> -->
+                        <button class="btn">CLEAR</button>
+                    </div>
+
+
+                </form>
+            </div>
+
+            <div class="table2">
+                <div class="output">Loan EMI
+                    <br><span class="output1"></span>
+                </div>
+
+                <div class="output">Total Interest
+                    <br> <span class="output2"></span>
+                </div>
+
+                <div class="output">Total Payment <br> (Principal+Interest)
+                    <br> <span class="output3"></span>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
